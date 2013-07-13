@@ -2,9 +2,7 @@ var express = require('express');
 
 var app = express.createServer(express.logger());
 
-var indexfile = fs.readFile('index.html');
-
-var buffer = new Buffer(indexfile);
+var buffer = new Buffer(fs.readFile('index.html'));
 
 app.get('/', function(request, response) {
   response.send(buffer);
