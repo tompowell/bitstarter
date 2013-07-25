@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+ <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>My First Bitstarter</title>
@@ -55,7 +55,7 @@
       </div>
     <div class="row subheading">
       <div class="span12">
-	<p class="lead">This is my first bitstarter project.</p>
+	<p class="lead">This is my first bitstarter project. I'm now editing this file. editing again.</p>
       </div>
     </div>
     <div class="row pitch">
